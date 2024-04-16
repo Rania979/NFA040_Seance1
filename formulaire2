@@ -1,0 +1,37 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dresseur de pokémon - EL ABDELLAOUI Rania</title>
+</head>
+
+<body>
+<h1>Dresseur de pokéquoi ?</h1>
+<p>Les champs marqués d'une * sont obligatoires</p>
+
+<form action="#">
+<fieldset>
+<legend>Nouveau dresseur</legend>
+<p>Nom * : <br>
+<input name="name" type="text" value=""></p>
+<p>Description <br>
+<textarea rows="3" cols="30	" name="desciption"></textarea>
+</p>
+
+<p> Équipe
+  <br> Rouge <input name="R" type="radio" value="Rouge"> <br>
+  Jaune <input name="Y" type="radio" value="Jaune"> <br>
+  Bleu <input name="B" type="radio" value="Bleu">
+</p>
+
+<p>Anniversaire * : <br>
+<input name="birthday" type="text" value="jj/mm/aaaa">
+</p>
+
+<p>
+<input type="submit" value="Envoyer">
+</p>
+
+</fieldset>
+</form>
+</body>
+</html>
